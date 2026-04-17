@@ -1,0 +1,26 @@
+{
+  "name": "claude-neuralseek-cowork",
+  "owner": {
+    "name": "NeuralSeek",
+    "email": "gian@neuralseek.com",
+    "url": "https://github.com/gmbello/claude-neuralseek-cowork"
+  },
+  "metadata": {
+    "description": "NeuralSeek plugins for Claude Code and Cowork. Install the NeuralSeek plugin to develop, debug, and operate mAIstro agents from inside Claude.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "neuralseek-cowork-plugin",
+      "source": "./plugins/neuralseek-cowork-plugin",
+      "description": "NeuralSeek integration for Cowork with interactive form-based setup. Credentials are collected via AskUserQuestion and written to ~/.neuralseek-cowork.json. Includes agent development (NTL), debugging, RAG search, architecture mapping, instance ops, and an agent template library.",
+      "version": "0.3.0",
+      "author": {
+        "name": "NeuralSeek Team"
+      },
+      "category": "integration",
+      "keywords": ["neuralseek", "maistro", "ntl", "agents", "rag", "mcp"],
+      "strict": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "neuralseek-cowork-plugin",
+  "version": "0.3.0",
+  "description": "NeuralSeek integration for Cowork with interactive form-based setup. Credentials are collected via AskUserQuestion and written to ~/.neuralseek-cowork.json. Includes agent development (NTL), debugging, RAG search, architecture mapping, instance ops, and an agent template library.",
+  "author": {
+    "name": "NeuralSeek Team"
+  },
+  "keywords": ["neuralseek", "maistro", "ntl", "agents", "rag", "mcp"]
+}
