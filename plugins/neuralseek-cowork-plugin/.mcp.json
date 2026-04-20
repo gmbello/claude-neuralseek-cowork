@@ -1,8 +1,9 @@
 {
   "mcpServers": {
     "neuralseek": {
+      "type": "stdio",
       "command": "npx",
-      "args": ["tsx", "scripts/mcp-server.ts"],
+      "args": ["-y", "@osuna0102/mcp"],
       "env": {
         "NS_INSTANCE": "prueba-claude",
         "NS_API_KEY": "e00b375e-98c8e64a-ea151426-5e2a564a",
