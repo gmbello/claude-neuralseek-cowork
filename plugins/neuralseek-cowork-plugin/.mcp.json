@@ -1,15 +1,12 @@
 {
   "mcpServers": {
     "neuralseek": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@osuna0102/mcp"],
-      "env": {
-        "NS_INSTANCE": "prueba-claude",
-        "NS_API_KEY": "e00b375e-98c8e64a-ea151426-5e2a564a",
-        "NS_BASE_URL": "https://stagingapi.neuralseek.com/v1",
-        "KB_URL": "https://stagingapi.neuralseek.com/v1/NS-L3certificationReview_Jul2025",
-        "KB_API_KEY": "796212e9-f2d698a8-f3ea8a40-6b4e8f91"
+      "type": "http",
+      "url": "${NS_MCP_URL}",
+      "headers": {
+        "x-ns-instance": "${NS_INSTANCE}",
+        "x-ns-apikey": "${NS_API_KEY}",
+        "x-ns-url": "${NS_BASE_URL}"
       }
     }
   }
