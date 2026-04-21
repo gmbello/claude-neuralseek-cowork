@@ -2,11 +2,11 @@
   "mcpServers": {
     "neuralseek": {
       "type": "http",
-      "url": "${NS_MCP_URL}",
+      "url": "https://hedgiest-lashaunda-contractedly.ngrok-free.dev/mcp",
       "headers": {
-        "x-ns-instance": "${NS_INSTANCE}",
-        "x-ns-apikey": "${NS_API_KEY}",
-        "x-ns-url": "${NS_BASE_URL}"
+        "x-ns-instance": "prueba-claude",
+        "x-ns-apikey": "e00b375e-98c8e64a-ea151426-5e2a564a",
+        "x-ns-url": "https://stagingapi.neuralseek.com/v1"
       }
     }
   }
